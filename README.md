@@ -1,67 +1,44 @@
+# oneclick-pritunl
+ดิ้นนนน เข้าไป เอาให้ไข่ถลอก
 ______________________________________________
-**PRITUNL** 
+**VPN พี่เทพ PRITUNL** 
+
+#ต้นฉบับ
 
 www.pritunl.com
 
-_Create By MK_
 _______________________________________________
-Script ini hanya mengandungi
+Script Install
 - Pritunl
 - MongoDB
 - Vnstat
 - Web Server
-- Squid Proxy Port 7166,60000"
+- Squid Proxy Port 8080,8000,80"
 
-**TimeZone**   :  Malaysia
+**TimeZone**   :  ไทยโว้ยยยยย
 
 _________________________________________________
-**Script**
+**วิธีติดตั้ง**
 
-CentOS 7
+Ubuntu 14.xx+
 ```
-Coming Soon
+wget https://raw.githubusercontent.com/d1nfuck3r/oneclick-pritunl/master/install.sh
+chmod +x install.sh
+./install.sh
 ```
 
-Debian 8
+__________________________________________________
+**วิธีติดตั้ง**
+
+Debian8
 ```
-wget https://raw.githubusercontent.com/zero9911/pritunl/master/debian8.sh
+wget https://raw.githubusercontent.com/d1nfuck3r/oneclick-pritunl/master/debian8.sh
 chmod +x debian8.sh
 ./debian8.sh
 ```
-Debian 7
-```
-Coming Soon
-```
-
-Ubuntu 12.xx
-```
-Coming Soon
-```
-
-Ubuntu 14.xx
-```
-wget https://raw.githubusercontent.com/zero9911/pritunl/master/ubuntu14.sh
-chmod +x ubuntu14.sh
-./ubuntu14.sh
-```
-__________________________________________________
-
-Ingin beli VPS
-Beli di [DigitalOcean] (https://m.do.co/c/df29aad8461c)
 
 __________________________________________________
 **NOTE**
 
- - Tidak akan bertanggungjawab jika berlaku sesuatu pada diri atau bukan pada diri
- - Sila dapatkan kebenaran sebelum meng"edit" 
- 
- _BY MK_
- 
- MUHAMMAD KHAIRUNNAS 
-http://telegram.me/pirated123
+ -เ ฮี ย แ ง ะ งั ย จ ะ คั ย ล่ ะ-
 ___________________________________________________
-
-Jika script mempunyai masalah sila buat "New Issues"
-Akan balas dalam masa 24jam
-
-More command will added
