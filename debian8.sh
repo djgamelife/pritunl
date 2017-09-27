@@ -28,7 +28,6 @@ service squid3 restart
 
 # Enable Firewall
 sudo ufw allow 22,80,81,222,443,8080,9700,60000/tcp
-sudo ufw allow 22,80,81,222,443,8080,9700,60000/udp
 sudo yes | ufw enable
 
 # Change to Time GMT+8
